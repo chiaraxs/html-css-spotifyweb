@@ -48,3 +48,31 @@ footer{
     height: 100px;
     background-color: #171717;
 }
+
+
+
+/* MEDIA-QUERY */
+
+/* xs */
+
+@media only screen and (max-width: 600px){
+
+}
+
+/* s */
+
+@media only screen and (min-width: 600px){
+
+}
+
+/* medium */
+
+@media only screen and (min-width: 768px){
+
+}
+
+/* large */
+
+@media only screen and (min-width: 992px){
+    
+}
