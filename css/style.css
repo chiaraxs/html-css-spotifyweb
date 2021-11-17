@@ -56,23 +56,37 @@ footer{
 /* xs */
 
 @media only screen and (max-width: 600px){
+    
+    #sidebar{
+        width: 10%;
 
+    }
 }
 
 /* s */
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) and (max-width: 768px){
+
+    #sidebar{
+        width: 20%;
+    }
+
+    .head-main{
+        width: 80%;
+    }
 
 }
 
 /* medium */
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 1199px){
 
-}
+    #sidebar{
+        width: 30%;
+    }
 
-/* large */
+    .head-main{
+        width: 70%;
+    }
 
-@media only screen and (min-width: 992px){
-    
 }
