@@ -35,7 +35,7 @@ header{
 }
 
 main{
-    width: 300px;
+    width: 100%;
     height: 100px; 
     background-color: darkblue;
 }
