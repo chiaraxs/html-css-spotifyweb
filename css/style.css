@@ -4,8 +4,46 @@
     box-sizing: border-box;
 }
 
+/* CLASS UTILITY --------- */ 
+
+.flex{
+    display: flex;
+}
+
+.end{
+    justify-content: flex-end;
+}
+/* CLASS UTILITY ----------*/
+
+
 .page{
     height: 100vh;
     width: 100%;
     background-color: black;
+}
+
+.container{
+    flex-flow: row wrap;
+}
+
+header{
+    width: calc(100% - 300px);
+    height: 100px;
+    background-color: #171717;
+}
+
+#sidebar{
+    height: 600px;
+    width: 300px;
+    background-color: chocolate;
+}
+
+main{
+    width: calc(100% - 300px);
+    background-color: darkblue; 
+}
+
+footer{
+    height: 100px;
+    background-color: #171717;
 }
