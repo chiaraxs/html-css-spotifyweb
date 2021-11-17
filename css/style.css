@@ -10,11 +10,7 @@
     display: flex;
 }
 
-.end{
-    justify-content: flex-end;
-}
 /* CLASS UTILITY ----------*/
-
 
 .page{
     height: 100vh;
@@ -27,20 +23,21 @@
 }
 
 header{
-    width: calc(100% - 300px);
+    width: calc(100% - 200px);
     height: 100px;
     background-color: #171717;
 }
 
 #sidebar{
     height: 600px;
-    width: 300px;
+    width: 200px;
     background-color: chocolate;
 }
 
 main{
-    width: calc(100% - 300px);
-    background-color: darkblue; 
+    width: 300px;
+    height: 100px; 
+    background-color: darkblue;
 }
 
 footer{
