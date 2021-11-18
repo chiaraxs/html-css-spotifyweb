@@ -123,8 +123,6 @@
 }
 
 
-
-
 /* ---------- MAIN --------- */
 
 main{
@@ -137,11 +135,32 @@ main{
 /* ------- HEADER ------ */
 
 header{
-    width: 100%;
+    width: calc( 100% - 200px);
     height: 80px;
-    background-color: #171717;
+    background-color: black;
     position: fixed;
+    display: flex; 
+    justify-content: flex-end;
 }
+
+.upgrade-button{
+    padding: 20px;
+}
+
+.upgrade-button button{
+    width: 200px;
+    padding: 10px;    
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.upgrade-button a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
 /* ------- FOOTER -------- */
 
