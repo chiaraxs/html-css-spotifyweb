@@ -60,6 +60,10 @@
     padding: 15px;
 }
 
+.hidden-logo img{
+    display: none;
+}
+
 .sidebar-central img, .sidebar-bottom img{
     width: 20px;
 }
@@ -202,13 +206,27 @@ footer{
 
 /* xs */
 
-/* @media only screen and (max-width: 600px){
-    
-    #sidebar{
-        width: 10%;
+@media only screen and (max-width: 600px){
 
+    #sidebar{
+        width: 50px;
     }
-} */
+
+    .sidebar-top{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .hidden-logo img{
+        display: block;
+        width: 20px;
+    }
+
+    .logo img{
+        display: none;
+    }
+} 
 
 /* s */
 
