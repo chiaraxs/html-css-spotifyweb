@@ -223,8 +223,21 @@ footer{
         width: 20px;
     }
 
-    .logo img{
+    header{
+        width: 100%;
+    }
+
+    header .upgrade-button{
+        margin-right: 40px;
+    }
+
+    .logo img, .home span, .search a, .library a, .name-playlist, .playlist, .install a, .install hr, .install span {
         display: none;
+    }
+
+    .install .profile img{
+        width: 10px;
+
     }
 } 
 
