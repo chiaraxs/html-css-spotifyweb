@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-/* CLASS UTILITY --------- */ 
+/* START CLASS UTILITY --------- */ 
+
+.img{
+    width: 100%;
+}
 
 .flex{
     display: flex;
@@ -14,13 +18,18 @@
 
 }
 
-/* CLASS UTILITY ----------*/
+.white{
+    color: white;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+/* END CLASS UTILITY ----------*/
 
 .page{
     height: 100vh;
     width: 100%;
     background-color: black;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -32,36 +41,91 @@
     flex-grow: 1;
 }
 
-header{
-    width: 100%;
-    height: 100px;
-    background-color: #171717;
-    position: fixed;
-}
+/* ----- SIDEBAR ---------- */
 
 #sidebar{
     height: 100%;
     width: 200px;
-    background-color: chocolate;
+    background-color: black;
 }
 
+/* ------ SIDEBAR TOP ------- */
 .sidebar-top{
     width: 100%;
-    height: 100px;
-    background-color: burlywood;
+    height: 80px;
+    background-color: black;
 }
 
+.logo{
+    padding: 15px;
+}
+
+.sidebar-central img, .sidebar-bottom img{
+    width: 20px;
+}
+
+/* ---- SIDEBAR CENTRAL ----- */
 .sidebar-central{
     width: 100%;
-    height: calc( 100% - 200px );
-    background-color: firebrick;
+    height: calc( 100% - 160px );
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: black;
 }
+
+#sidebar ul li{
+    list-style: none;
+}
+
+.sidebar-central a, .sidebar-bottom a{
+    text-decoration: none;
+    color: #9c9c9c;
+    line-height: 30px;
+}
+
+.sidebar-central > .search a,
+.sidebar-central > .library a{
+    color: #9c9c9c;
+}
+
+.playlist > .fas{
+    font-size: 10px;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: white;
+    opacity: 0.7;
+} 
+
+.name-playlist{
+    overflow: auto;
+}
+
+/* ---- SIDEBAR BOTTOM ----- */
 
 .sidebar-bottom{
     width: 100%;
-    height: 100px;
-    background-color: burlywood;
+    height: 80px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: black;
 }
+
+
+.install .profile{
+    font-size: 20px;
+    background-color: #9c9c9c;
+    border-radius: 50%;
+}
+
+.short-hr{
+    color: #9c9c9c;
+    margin: 5px;
+}
+
+
+
+
+/* ---------- MAIN --------- */
 
 main{
     width: 100%;
@@ -69,6 +133,17 @@ main{
     overflow-y: scroll;  
     background-color: darkblue;
 }
+
+/* ------- HEADER ------ */
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #171717;
+    position: fixed;
+}
+
+/* ------- FOOTER -------- */
 
 footer{
     height: 100px;
@@ -92,7 +167,17 @@ footer{
     width: 200px;
     background-color: gold;
 }
-}
+
+
+
+
+
+
+
+
+
+
+
 
 /* MEDIA-QUERY */
 

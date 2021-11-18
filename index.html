@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -18,38 +21,81 @@
         <div class="container flex">
            
         
-            <!-- SIDEBAR -->
+            <!--------------- START SIDEBAR-------->
             <div id="sidebar">
+
+                <!-- SIDEBAR TOP -->
                 <div class="sidebar-top">
-                    <div class="logo"></div>
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="">
+                    </div>
                 </div>
+
+                <!-- SIDEBAR CENTRAL -->
                 <div class="sidebar-central">
-                    <div class="home"></div>
-                    <div class="playlist"></div>
-                    <!-- NAME-PLAY-LIST DA METTERE IN OVERFLOW AUTO -->
-                    <div class="name-playlist"></div> 
-                    <!-- NAME-PLAY-LIST DA METTERE IN OVERFLOW AUTO -->
+                    <div class="home white">
+                        <img src="./img/home.svg" alt=""> Home  
+                   </div>
+
+                   <!-- SEARCH -->
+                   <div class="search">
+                       <img src="./img/search.svg" alt=""> 
+                       <a href="http://">Cerca</a>
+                   </div>
+
+                   <!-- LIBRARY -->
+                   <div class="library">
+                       <img src="./img/libreria.svg" alt=""> 
+                       <a href="http://">La tua libreria</a>
+                   </div>
+
+                   <!-- PLAYLIST -->
+                    <div class="playlist">
+                        <h3 class="white" >PLAYLIST</h3>
+                        <i class="fas fa-plus"></i>
+                        <a href="http://">Crea Playlist</a>
+                    </div>
+
+                    <!-- NAME PLAYLIST IN OVERFLOW AUTO -->
+                    <div class="name-playlist">
+                        <ul>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>                            
+                        </ul>
+                    </div>                     
                 </div>
+
+                <!-- SIDEBAR BOTTOM -->
                 <div class="sidebar-bottom">
-                    <div class="install"></div>
+                    <div class="install">
+                        <img src="./img/download.svg" alt="">
+                        <a href="http://">Installa app</a>
+                        <hr class="short-hr">
+                        <img class="profile" src="./img/profile.svg" alt=""> <span class="white">Jhon Doe</span>                        
+                    </div>
                 </div>
             </div>
-            <!-- SIDEBAR -->
+            <!-------- END SIDEBAR -------------->
             
             <div class="head-main"> 
-                <!-- HEADER -->
+                <!-------------- START HEADER ----------->
                 <header>
                     <!-- <div class="header-left"></div> -->
                     <div class="header-right">
                         <div class="upgrade-button"></div>
                     </div>
                 </header>
-                <!-- HEADER -->
+                <!-------------- END HEADER -------------->
             
-                <!-- MAIN -->
+                <!-------------- START MAIN --------------->
                 <main>
                     <div class="nav-main"></div>
-                    <div class="recently">
+                    <div class="recently flex">
                         <div class="album"></div>
                         <div class="album"></div>
                         <div class="album"></div>
@@ -57,19 +103,20 @@
                         <div class="album"></div>
                         <div class="album"></div>
                     </div>
-                    <div class="foryou">
+                    <div class="foryou flex">
                         <div class="album"></div>
                         <div class="album"></div>
                     </div>
-                    <div class="popular">
+                    <div class="popular flex">
                         <div class="album"></div>
                         <div class="album"></div>
                     </div>
                 </main>
-                <!-- MAIN -->
+                <!------------- END MAIN ------------------->
             </div>
         </div>
-        <!-- FOOTER -->
+
+        <!------------------START FOOTER ------------------>
         <footer>
             <div class="footer-left"></div>
             <!-- FOOTER-CENTRAL IN FLEW-GROW -->
@@ -79,7 +126,7 @@
             </div>
             <div class="footer-right"></div>
         </footer>
-        <!-- FOOTER -->
+        <!--------------- END FOOTER ----------------------->
     
     </div>
     
