@@ -65,6 +65,7 @@ h6{
     width: 200px;
     background-color: black;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 /* ------ SIDEBAR TOP ------- */
@@ -93,6 +94,7 @@ h6{
     padding: 10px 20px;
     font-size: 15px;
     background-color: black;
+    min-height: 400px;
 }
 
 #sidebar ul li{
@@ -111,8 +113,9 @@ h6{
 }
 
 .name-playlist{
-    max-height: 150px;
+    max-height: 40%; 
     margin-top: 10px;
+    overflow-y: auto;
 }
 
 .playlist > .fas{
@@ -122,10 +125,6 @@ h6{
     background-color: white;
     opacity: 0.7;
 } 
-
-.sidebar-central .name-playlist {
-    overflow-y: auto;
- }
 
 /* ---- SIDEBAR BOTTOM ----- */
 
@@ -237,25 +236,26 @@ header{
 
 footer{
     height: 100px;
-    background-color: #171717;
     display: flex;
 }
 
 .footer-left{
     height: 100%;
     width: 200px;
-    background-color: gold;
+    background-color: #252525;
+    border-right: 1px solid white;
 }
 
 .footer-central{
     flex-grow: 1;
-    background-color: hotpink;
+    background-color: #252525;
 }
 
 .footer-right{
     height: 100%;
     width: 200px;
-    background-color: gold;
+    background-color: #252525;
+    border-left: 1px solid white;
 }
 
 
