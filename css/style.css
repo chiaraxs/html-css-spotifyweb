@@ -110,6 +110,11 @@ h6{
     color: #9c9c9c;
 }
 
+.name-playlist{
+    max-height: 150px;
+    margin-top: 10px;
+}
+
 .playlist > .fas{
     font-size: 10px;
     padding: 10px;
@@ -119,7 +124,7 @@ h6{
 } 
 
 .sidebar-central .name-playlist {
-    overflow-y: scroll;
+    overflow-y: auto;
  }
 
 /* ---- SIDEBAR BOTTOM ----- */
@@ -159,7 +164,6 @@ main{
 }
 
 .nav-main{
-    /* height: 80px; */
     width: 100%;
     display: inline-block;
     text-align: center;
@@ -183,7 +187,6 @@ main{
 }
 
 .recently .album{
-   
     margin-left: 10px;
     justify-content: space-between;
 }
