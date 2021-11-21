@@ -249,7 +249,6 @@ footer{
     height: 100%;
     width: 200px;
     background-color: #252525;
-    border-right: 1px solid white;
     align-items: center;
     justify-content: space-around;
 }
@@ -263,7 +262,6 @@ footer{
     height: 100%;
     width: 200px;
     background-color: #252525;
-    border-left: 1px solid white;
 }
 
 .footer-left .album{
@@ -280,15 +278,66 @@ footer h5, h6{
     line-height: 3px;
 }
 
-footer .far{
+footer .footer-left .far{
     color: #9c9c9c;
     padding: 3px;
 }
 
+footer .footer-central .far, footer .footer-central .fas{
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+}
+
+.footer-central .play-command, .footer-central .player-progress {
+    align-items: center;
+    justify-content: center;
+}
+
+progress[value] {   
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 500px;
+    height: 5px; 
+    border-radius: 2px;
+    margin: 0 10px;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    color: white;
+   
+}
+
+progress[value]::-webkit-progress-value {
+    background-image:
+         -webkit-linear-gradient(-45deg, 
+                                 transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                                 rgba(0,0, 0, .1) 66%, transparent 66%),
+         -webkit-linear-gradient(top, 
+                                 rgba(255, 255, 255, .25), 
+                                 rgba(0, 0, 0, .25)),
+         -webkit-linear-gradient(left, rgb(143, 144, 145), rgb(29, 26, 26));
+}
+
+.footer-right{
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 5px;
+}
 
 
+.footer-right .fas{
+    padding: 10px;
+    color: white;
+}
 
-
+.footer-right progress{
+    width: 50px;
+    height: 5px; 
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
 
 
 
