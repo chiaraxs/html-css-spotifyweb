@@ -46,6 +46,24 @@ h6, h4{
 
 /* END CLASS UTILITY ----------*/
 
+/* HOVER */
+
+.nav-main ul li a:hover, .sidebar-central .search a:hover, .sidebar-central .library a:hover, .name-playlist ul li a:hover, .sidebar-bottom .install a:hover, .footer-left .icon i:hover{
+    color: white;
+}
+
+.footer-left h6:hover{
+    text-decoration: underline;
+}
+
+.upgrade-button:hover, .play-command .fa-play-circle:hover{
+    transition: 1s;
+    transform: scale(1.1)
+}
+
+
+/* HOVER */
+
 .page{
     height: 100vh;
     width: 100%;
@@ -54,7 +72,6 @@ h6, h4{
 }
 
 .container{
-    /* flex-flow: row wrap; */
     height: calc(100% - 100px);
 }
 
@@ -306,7 +323,6 @@ progress[value] {
 progress[value]::-webkit-progress-bar {
     background-color: #eee;
     color: white;
-   
 }
 
 progress[value]::-webkit-progress-value {
@@ -367,7 +383,7 @@ progress[value]::-webkit-progress-value {
     }
 
     footer{
-         width: 100%;
+        width: 100%;
     }
 
     .hidden-logo img{
