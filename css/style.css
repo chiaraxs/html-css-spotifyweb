@@ -50,17 +50,25 @@ h6, h4{
 
 .nav-main ul li a:hover, .sidebar-central .search a:hover, .sidebar-central .library a:hover, .name-playlist ul li a:hover, .sidebar-bottom .install a:hover, .footer-left .icon i:hover{
     color: white;
+    cursor: pointer;
 }
 
 .footer-left h6:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .upgrade-button:hover, .play-command .fa-play-circle:hover{
     transition: 1s;
-    transform: scale(1.1)
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
+.recently .album img:hover{
+    transition: 2s;
+    filter: opacity(80%);
+    cursor: pointer;
+}
 
 /* HOVER */
 
@@ -403,6 +411,7 @@ progress[value]::-webkit-progress-value {
         width: 10px;
 
     }
+
 } 
 
 /* s */
